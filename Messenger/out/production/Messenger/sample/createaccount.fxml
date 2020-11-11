@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.event.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreateAccountController">
+   <children>
+      <Label fx:id="createAccountHere" layoutX="164.0" layoutY="21.0" text="Create a free account here!" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" layoutX="107.0" layoutY="125.0" text="Username :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="107.0" layoutY="169.0" text="Email :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="password" layoutX="106.0" layoutY="216.0" text="Password :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameField" layoutX="222.0" layoutY="123.0" />
+      <TextField fx:id="emailField" layoutX="222.0" layoutY="169.0" />
+      <PasswordField fx:id="passwordField" layoutX="222.0" layoutY="214.0" />
+      <Button fx:id="submitButton" layoutX="268.0" layoutY="279.0" mnemonicParsing="false" onAction="#submitAction" text="Submit">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" layoutX="277.0" layoutY="328.0" mnemonicParsing="false" onAction="#backAction" text="Back">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="193.0" layoutY="69.0" text="Do not put any space in the fields" />
+   </children>
+</AnchorPane>

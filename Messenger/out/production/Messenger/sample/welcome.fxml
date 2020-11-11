@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.event.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WelcomeController">
+   <children>
+      <Label fx:id="welcome" layoutX="110.0" layoutY="60.0" text="Welcome To Messenger!" textAlignment="CENTER" textFill="#0b2eae">
+         <font>
+            <Font name="Britannic Bold" size="36.0" />
+         </font>
+      </Label>
+
+      <Label fx:id="name" layoutX="140.0" layoutY="140.0" text="Username :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+
+      <TextField fx:id="nameField" layoutX="244.0" layoutY="135.0" />
+
+      <Label fx:id="password" layoutX="140.0" layoutY="190.0" text="Password :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+
+      <PasswordField fx:id="passwordField" layoutX="244.0" layoutY="185.0" />
+
+      <Button fx:id="createButton" layoutX="180.0" layoutY="276.0" mnemonicParsing="false" onAction="#createAction" text="Create Account" />
+
+      <Button fx:id="loginButton" layoutX="330.0" layoutY="276.0" mnemonicParsing="false" onAction="#loginAction" text="Log In" />
+
+   </children>
+</AnchorPane>
