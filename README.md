@@ -1,2 +1,2 @@
 # Messenger-javaFX
-A chatting application made by Java and JavaFX
+A small chatting application made using Java and JavaFX
